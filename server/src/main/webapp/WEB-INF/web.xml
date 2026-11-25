@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <!-- [ETAP 3] Servlet API 4 configuration and HTTP route mappings. -->
+    <display-name>SERVETRA Server</display-name>
+    <servlet><servlet-name>EquipmentServlet</servlet-name><servlet-class>ua.edu.nupp.servetra.server.servlet.EquipmentServlet</servlet-class></servlet>
+    <servlet-mapping><servlet-name>EquipmentServlet</servlet-name><url-pattern>/api/v1/equipment/*</url-pattern></servlet-mapping>
+    <servlet><servlet-name>SpecialistServlet</servlet-name><servlet-class>ua.edu.nupp.servetra.server.servlet.SpecialistServlet</servlet-class></servlet>
+    <servlet-mapping><servlet-name>SpecialistServlet</servlet-name><url-pattern>/api/v1/specialists/*</url-pattern></servlet-mapping>
+    <servlet><servlet-name>MaintenanceRequestServlet</servlet-name><servlet-class>ua.edu.nupp.servetra.server.servlet.MaintenanceRequestServlet</servlet-class></servlet>
+    <servlet-mapping><servlet-name>MaintenanceRequestServlet</servlet-name><url-pattern>/api/v1/requests/*</url-pattern></servlet-mapping>
+    <servlet><servlet-name>ServiceRecordServlet</servlet-name><servlet-class>ua.edu.nupp.servetra.server.servlet.ServiceRecordServlet</servlet-class></servlet>
+    <servlet-mapping><servlet-name>ServiceRecordServlet</servlet-name><url-pattern>/api/v1/service-records/*</url-pattern></servlet-mapping>
+    <servlet><servlet-name>HealthServlet</servlet-name><servlet-class>ua.edu.nupp.servetra.server.servlet.HealthServlet</servlet-class></servlet>
+    <servlet-mapping><servlet-name>HealthServlet</servlet-name><url-pattern>/api/v1/health</url-pattern></servlet-mapping>
+</web-app>
+

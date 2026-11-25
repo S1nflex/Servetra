@@ -1,0 +1,14 @@
+.root { -fx-font-family: "Inter", "Segoe UI", sans-serif; -fx-font-size: 13px; }
+.top-bar { -fx-border-width: 0 0 1 0; }
+.brand { -fx-font-size: 21px; -fx-font-weight: 800; }
+.subtitle { -fx-font-size: 13px; -fx-opacity: 0.72; }
+.tab-pane .tab-header-area { -fx-padding: 8 14 0 14; }
+.table-view { -fx-background-radius: 7; -fx-border-radius: 7; }
+.button { -fx-background-radius: 6; -fx-padding: 7 13; -fx-cursor: hand; }
+.text-field, .text-area, .combo-box, .date-picker, .spinner { -fx-background-radius: 5; }
+.form-label { -fx-opacity: 0.78; }
+.metric-card { -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-width: 1; }
+.metric-label { -fx-font-size: 13px; -fx-opacity: 0.72; }
+.metric-value { -fx-font-size: 30px; -fx-font-weight: 700; }
+.muted { -fx-opacity: 0.72; }
+

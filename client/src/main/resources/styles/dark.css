@@ -1,0 +1,12 @@
+.root { -fx-base: #161d27; -fx-background: #111720; -fx-control-inner-background: #1c2633; -fx-text-fill: #edf4fb; }
+.top-bar { -fx-background-color: #151e29; -fx-border-color: #2e3a49; }
+.brand { -fx-text-fill: #67c5bd; }
+.metric-card { -fx-background-color: #1a2430; -fx-border-color: #344253; }
+.button { -fx-background-color: #2a3b4e; -fx-text-fill: #edf4fb; }
+.button:hover { -fx-background-color: #35506b; }
+.tab-pane .tab:selected { -fx-background-color: #26465a; }
+.table-row-cell.priority-low { -fx-background-color: #173728; -fx-text-background-color: #d7fbe5; }
+.table-row-cell.priority-medium { -fx-background-color: #40371d; -fx-text-background-color: #fff1b8; }
+.table-row-cell.priority-high { -fx-background-color: #4a2d1d; -fx-text-background-color: #ffd8b5; }
+.table-row-cell.priority-critical { -fx-background-color: #4a2025; -fx-text-background-color: #ffd6d9; }
+
